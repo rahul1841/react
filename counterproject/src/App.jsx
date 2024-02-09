@@ -10,6 +10,12 @@ let [counter, setCounter] = useState(0)
 const addvalue = () => {
   if(counter < 20 ){
   setCounter(counter+1)
+ /* interview question
+  setCounter((prevcounter) => prevcounter + 1)
+  setCounter((prevcounter) => prevcounter + 1)
+  setCounter((prevcounter) => prevcounter + 1)
+  setCounter((prevcounter) => prevcounter + 1)
+  */
   }
   else{
     setCounter(0)
